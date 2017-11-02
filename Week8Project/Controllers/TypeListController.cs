@@ -74,7 +74,7 @@ namespace Week8Project.Controllers
 
         //Put
         //Update an existing TypeList
-        [HttpPut]
+        [HttpPut("{type}")]
         public async Task<IActionResult> Put(string type, [FromBody]TypeList listToUpdate)
         {
             //Check model state
@@ -100,7 +100,7 @@ namespace Week8Project.Controllers
 
         //Delete
         //Deletes the specified TypeList
-        [HttpDelete]
+        [HttpDelete("{type}")]
         public async Task<IActionResult> Delete(string type)
         {
             //Select Pmon by id
@@ -108,6 +108,11 @@ namespace Week8Project.Controllers
             //If found, delete it.
             if (theList != null)
             {
+                var members = _context.Pokemon.Where(p => p.Type == type);
+                foreach (var pokemon in members)
+                {
+                    _context.Pokemon.Remove(pokemon);
+                }
                 _context.TypeList.Remove(theList);
                 await _context.SaveChangesAsync();
                 return Ok();

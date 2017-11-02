@@ -23,7 +23,6 @@ namespace XUnitTestsWeek8
 
             //Assert
             Assert.Equal(testMon.Species, "Pikachu");
-
         }
 
         [Fact]
@@ -37,7 +36,6 @@ namespace XUnitTestsWeek8
 
             //Assert
             Assert.Equal(testMon.Type, "Grass");
-
         }
 
         [Fact]
@@ -51,7 +49,6 @@ namespace XUnitTestsWeek8
 
             //Assert
             Assert.Equal(testMon.Species, "Pikachu");
-
         }
 
         [Fact]
@@ -65,13 +62,13 @@ namespace XUnitTestsWeek8
 
             //Assert
             Assert.Equal(testMon.Type, "Grass");
-
         }
 
         // Reference for InMemory Databases: https://docs.microsoft.com/en-us/ef/core/miscellaneous/testing/in-memory
         //Test taken from class example
+        //test Pokemon GET
         [Fact]
-        public void GetStatusCodeOK()
+        public void PokemonGetStatusCodeOK()
         {
             var options = new DbContextOptionsBuilder<PokemonDbContext>()
             .UseInMemoryDatabase(databaseName: "getStatusCode")
@@ -89,7 +86,80 @@ namespace XUnitTestsWeek8
                 //Assert
                 Assert.Equal(HttpStatusCode.OK, (HttpStatusCode)sc.StatusCode.Value);
             }
-
         }
+
+        [Fact]
+        //test ListType GET
+        public void TypeListGetStatusCodeOK()
+        {
+            var options = new DbContextOptionsBuilder<PokemonDbContext>()
+            .UseInMemoryDatabase(databaseName: "getStatusCode")
+            .Options;
+
+            //Arrange
+            using (var context = new PokemonDbContext(options))
+            {
+                var controller = new TypeListController(context);
+
+                //Act
+                var result = controller.Get("test");
+                ObjectResult sc = (ObjectResult)result;
+
+                //Assert
+                Assert.Equal(HttpStatusCode.OK, (HttpStatusCode)sc.StatusCode.Value);
+            }
+        }
+
+        //test Pokemon POST
+        [Fact]
+        public void TestPostPokemon()
+        {
+            var options = new DbContextOptionsBuilder<PokemonDbContext>()
+            .UseInMemoryDatabase(databaseName: "getStatusCode")
+            .Options;
+
+            //Arrange
+            using (var context = new PokemonDbContext(options))
+            {
+                var controller = new PokemonController(context);
+                Pokemon testPokemon = new Pokemon();
+                testPokemon.Species = "test";
+                testPokemon.Type = "test";
+
+                //Act
+                var result = controller.Post(testPokemon);
+                CreatedAtActionResult caar = (CreatedAtActionResult)result.Result;
+                
+
+                //Assert
+                Assert.Equal(HttpStatusCode.Created, (HttpStatusCode)caar.StatusCode);
+            }
+        }
+
+        //test ListType POST
+        [Fact]
+        public void TestPostTypeList()
+        {
+            var options = new DbContextOptionsBuilder<PokemonDbContext>()
+            .UseInMemoryDatabase(databaseName: "getStatusCode")
+            .Options;
+
+            //Arrange
+            using (var context = new PokemonDbContext(options))
+            {
+                var controller = new TypeListController(context);
+                TypeList testLiist = new TypeList();
+                testLiist.Type = "test";
+
+                //Act
+                var result = controller.Post(testLiist);
+                CreatedAtActionResult caar = (CreatedAtActionResult)result.Result;
+
+
+                //Assert
+                Assert.Equal(HttpStatusCode.Created, (HttpStatusCode)caar.StatusCode);
+            }
+        }
+
     }
 }
