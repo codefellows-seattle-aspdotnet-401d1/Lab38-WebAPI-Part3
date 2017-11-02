@@ -22,5 +22,10 @@ namespace lab36_miya.Data
         {
             get; set;
         }
+
+        public DbSet<Majors> Majors
+        {
+            get; set;
+        }
     }
 }

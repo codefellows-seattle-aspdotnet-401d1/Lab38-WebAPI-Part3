@@ -14,3 +14,9 @@ C:\Users\shami\Source\Repos\Lab36-WebAPI-Pt1\lab36_miya\XUnitTestProject1\obj\De
 C:\Users\shami\Source\Repos\Lab36-WebAPI-Pt1\lab36_miya\XUnitTestProject1\obj\Debug\netcoreapp2.0\XUnitTestProject1.pdb
 C:\Users\shami\Source\Repos\Lab36-WebAPI-Pt1\lab36_miya\XUnitTestProject1\bin\Debug\netcoreapp2.0\lab36_miya.dll
 C:\Users\shami\Source\Repos\Lab36-WebAPI-Pt1\lab36_miya\XUnitTestProject1\bin\Debug\netcoreapp2.0\lab36_miya.pdb
+C:\Users\shami\source\repos\Lab38-WebAPI-Part3\XUnitTestProject1\obj\Debug\netcoreapp2.0\XUnitTestProject1.csprojResolveAssemblyReference.cache
+C:\Users\shami\source\repos\Lab38-WebAPI-Part3\XUnitTestProject1\obj\Debug\netcoreapp2.0\XUnitTestProject1.csproj.CoreCompileInputs.cache
+C:\Users\shami\source\repos\Lab38-WebAPI-Part3\XUnitTestProject1\obj\Debug\netcoreapp2.0\XUnitTestProject1.AssemblyInfoInputs.cache
+C:\Users\shami\source\repos\Lab38-WebAPI-Part3\XUnitTestProject1\obj\Debug\netcoreapp2.0\XUnitTestProject1.AssemblyInfo.cs
+C:\Users\shami\source\repos\Lab38-WebAPI-Part3\XUnitTestProject1\obj\Debug\netcoreapp2.0\XUnitTestProject1.dll
+C:\Users\shami\source\repos\Lab38-WebAPI-Part3\XUnitTestProject1\obj\Debug\netcoreapp2.0\XUnitTestProject1.pdb
