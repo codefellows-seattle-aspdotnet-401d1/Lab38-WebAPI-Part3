@@ -85,14 +85,16 @@ namespace lab36_miya.Controllers
 
             if (result != null)
             {
+                for()
+                {
+
+                }
                 _context.Majors.Remove(result);
                 await _context.SaveChangesAsync();
 
                 return Ok();
             }
-
-            return BadRequest();
-
+            return BadRequest();    
         }
     }
 
