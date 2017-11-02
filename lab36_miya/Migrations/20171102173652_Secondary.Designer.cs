@@ -11,9 +11,10 @@ using System;
 namespace lab36_miya.Migrations
 {
     [DbContext(typeof(Lab36DbContext))]
-    partial class Lab36DbContextModelSnapshot : ModelSnapshot
+    [Migration("20171102173652_Secondary")]
+    partial class Secondary
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

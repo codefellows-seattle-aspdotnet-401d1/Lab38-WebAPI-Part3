@@ -13,16 +13,16 @@ namespace XUnitTestProject1
         [Fact]
         public void GetReturnsOKWithIntArgument()
         {
-            //Arrange
-            //var testContext = new Lab36DbContext(new UnitTest1());
-            var controller = new CoursesController(new TestDbContext(TestModel));
+        //    //Arrange
+        //    //var testContext = new Lab36DbContext(new UnitTest1());
+        //    var controller = new CoursesController(new TestDbContext(TestModel));
 
-            //Act
-            var result = controller.Get(1);
-            ObjectResult statusCode = (ObjectResult) result;
+        //    //Act
+        //    var result = controller.Get(1);
+        //    ObjectResult statusCode = (ObjectResult) result;
 
-            //Assert
-            Assert.Equal(HttpStatusCode.OK, (HttpStatusCode) statusCode.StatusCode.Value);
+        //    //Assert
+        //    Assert.Equal(HttpStatusCode.OK, (HttpStatusCode) statusCode.StatusCode.Value);
         }
 
         [Fact]
