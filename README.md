@@ -29,10 +29,10 @@
 ## ReadMe
 - Your readme should include the following information:
   - Your link to your Azure deployed link
-  - How long did it take you to complete this assignment?
-  - What did you struggle with? Why? How did you solve?
-  - What did you learn during this assignment?
-  - What resources did you utilize for this assingment?
+  - How long did it take you to complete this assignment? 3-4 hours
+  - What did you struggle with? Why? How did you solve? I struggled with creating things to test in my unit tests folder.
+  - What did you learn during this assignment? I learned that which controller and model you refer to in a test matters.
+  - What resources did you utilize for this assingment? class demo, advice from instructor
 
 ## Rubric
 - 2pts: Additional resources is added with all required actions/behavior
