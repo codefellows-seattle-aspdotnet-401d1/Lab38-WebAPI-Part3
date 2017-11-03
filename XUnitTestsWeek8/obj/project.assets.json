@@ -13539,11 +13539,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\acohr\\Source\\Repos\\Lab38-WebAPI-Part3\\XUnitTestsWeek8\\XUnitTestsWeek8.csproj",
+      "projectUniqueName": "C:\\Users\\acohr\\source\\repos\\Lab38-WebAPI-Part3\\XUnitTestsWeek8\\XUnitTestsWeek8.csproj",
       "projectName": "XUnitTestsWeek8",
-      "projectPath": "C:\\Users\\acohr\\Source\\Repos\\Lab38-WebAPI-Part3\\XUnitTestsWeek8\\XUnitTestsWeek8.csproj",
+      "projectPath": "C:\\Users\\acohr\\source\\repos\\Lab38-WebAPI-Part3\\XUnitTestsWeek8\\XUnitTestsWeek8.csproj",
       "packagesPath": "C:\\Users\\acohr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\acohr\\Source\\Repos\\Lab38-WebAPI-Part3\\XUnitTestsWeek8\\obj\\",
+      "outputPath": "C:\\Users\\acohr\\source\\repos\\Lab38-WebAPI-Part3\\XUnitTestsWeek8\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13562,8 +13562,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\acohr\\Source\\Repos\\Lab38-WebAPI-Part3\\Week8Project\\Week8Project.csproj": {
-              "projectPath": "C:\\Users\\acohr\\Source\\Repos\\Lab38-WebAPI-Part3\\Week8Project\\Week8Project.csproj"
+            "C:\\Users\\acohr\\source\\repos\\Lab38-WebAPI-Part3\\Week8Project\\Week8Project.csproj": {
+              "projectPath": "C:\\Users\\acohr\\source\\repos\\Lab38-WebAPI-Part3\\Week8Project\\Week8Project.csproj"
             }
           }
         }

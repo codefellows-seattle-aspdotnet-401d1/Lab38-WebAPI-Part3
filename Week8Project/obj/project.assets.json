@@ -12543,11 +12543,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\acohr\\Source\\Repos\\Lab38-WebAPI-Part3\\Week8Project\\Week8Project.csproj",
+      "projectUniqueName": "C:\\Users\\acohr\\source\\repos\\Lab38-WebAPI-Part3\\Week8Project\\Week8Project.csproj",
       "projectName": "Week8Project",
-      "projectPath": "C:\\Users\\acohr\\Source\\Repos\\Lab38-WebAPI-Part3\\Week8Project\\Week8Project.csproj",
+      "projectPath": "C:\\Users\\acohr\\source\\repos\\Lab38-WebAPI-Part3\\Week8Project\\Week8Project.csproj",
       "packagesPath": "C:\\Users\\acohr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\acohr\\Source\\Repos\\Lab38-WebAPI-Part3\\Week8Project\\obj\\",
+      "outputPath": "C:\\Users\\acohr\\source\\repos\\Lab38-WebAPI-Part3\\Week8Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
