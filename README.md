@@ -1,38 +1,21 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab38-WebAPI-Pt3
-=====================================
-
-## To Submit this Assignment
-- fork this repository
-- write all of your code in a directory named `lab-#`; + `<your name>` **e.g.** `lab38-amanda`
-- push to your repository
-- submit a pull request to this repository
-- submit a link to your PR in canvas
-
-## Directions 
-- Building off of Lab 37, 
-  - Add a Second resource into your application (i.e. We added lists)
-  - Add the appropriate Controller and actions for your additional resource. 
-  - Here is what your actions should contain:
-    - Get(ALL) => Get all the lists possible
-    - Get (ID) => Get the list AND it's associated IDs *See Note beneath directions*
-    - POST => Create a new list
-    - PUT => Update a List
-    - Delete => Delete a list and all it's associated Tasks.
-    
- - Write unit tests. Have a TOTAL (for your whole project) of 8 working/passing unit tests. 
--  COMMENT your code. Clearly. Identify the above requirements within your code. It is important that ALL The code written in this project is yours and you comment exaclty what/why everything is going on. 
-- Use Postman to test your API.
-- Deploy your application to Azure
-
-**NOTE:** During our demo, I had put our GetTasks() call in our ListTasks model. I have updated the demo code accordingly, we will keep the database call in our Controller for this lab. it is possible to have this call in our model, except it takes a littel bit more work then what we have covered so far in the course. Traditionally it is recomended to keep these calls in the Controller. Keep database ("_context") calls to the controller. 
 
 ## ReadMe
 - Your readme should include the following information:
   - Your link to your Azure deployed link
+
   - How long did it take you to complete this assignment?
+  3.5 hours including the time to start from scratch. Still some tasks to complete
+  turning in what I have to not be late.
+
   - What did you struggle with? Why? How did you solve?
+  My initial implementation of my delete was doing some weird stuff with
+  my IDs but after looking at it with Amanda and the Tas I got it fixed.
+
   - What did you learn during this assignment?
+  I learned how to associate two api sources with each other 
+
   - What resources did you utilize for this assingment?
+  The previous days build and demo code and TAs/Amanda
 
 ## Rubric
 - 2pts: Additional resources is added with all required actions/behavior
