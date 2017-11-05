@@ -1,0 +1,16 @@
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Tests1\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Tests1\bin\Debug\netcoreapp2.0\xunit.runner.utility.netstandard15.dll
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Tests1\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netstandard15.dll
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Tests1\bin\Debug\netcoreapp2.0\Tests1.deps.json
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Tests1\bin\Debug\netcoreapp2.0\Tests1.runtimeconfig.json
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Tests1\bin\Debug\netcoreapp2.0\Tests1.runtimeconfig.dev.json
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Tests1\bin\Debug\netcoreapp2.0\Tests1.dll
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Tests1\bin\Debug\netcoreapp2.0\Tests1.pdb
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Tests1\bin\Debug\netcoreapp2.0\Lab38Api.dll
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Tests1\bin\Debug\netcoreapp2.0\Lab38Api.pdb
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Tests1\obj\Debug\netcoreapp2.0\Tests1.csprojResolveAssemblyReference.cache
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Tests1\obj\Debug\netcoreapp2.0\Tests1.csproj.CoreCompileInputs.cache
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Tests1\obj\Debug\netcoreapp2.0\Tests1.AssemblyInfoInputs.cache
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Tests1\obj\Debug\netcoreapp2.0\Tests1.AssemblyInfo.cs
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Tests1\obj\Debug\netcoreapp2.0\Tests1.dll
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Tests1\obj\Debug\netcoreapp2.0\Tests1.pdb
