@@ -46,6 +46,32 @@ namespace Lab38Api.Controllers
             return CreatedAtAction("Get", new { id = plan.ID }, plan);
         }
 
+        [HttpPost("{id:int}")]
+        public async Task<IActionResult> Put(int id,[FromBody] Birthday birthday)
+        {
+            //update a list name
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var Put = _context.BirthdayList.FirstOrDefault(p => p.ID == id);
+
+            if(Put != null)
+            {
+                Put.Name = birthday.Name;
+
+                _context.Update(Put);
+
+                await _context.SaveChangesAsync();
+                return Ok();
+            }
+            else
+            {
+                return BadRequest();
+            }
+        }
+
         [HttpDelete("{id=int}")]
         public async Task<IActionResult> Delete(int id)
         {

@@ -1,0 +1,11 @@
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Lab38Api\obj\Release\netcoreapp2.0\Lab38Api.csprojResolveAssemblyReference.cache
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Lab38Api\obj\Release\netcoreapp2.0\Lab38Api.csproj.CoreCompileInputs.cache
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Lab38Api\obj\Release\netcoreapp2.0\Lab38Api.AssemblyInfoInputs.cache
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Lab38Api\obj\Release\netcoreapp2.0\Lab38Api.AssemblyInfo.cs
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Lab38Api\bin\Release\netcoreapp2.0\Lab38Api.deps.json
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Lab38Api\bin\Release\netcoreapp2.0\Lab38Api.runtimeconfig.json
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Lab38Api\bin\Release\netcoreapp2.0\Lab38Api.runtimeconfig.dev.json
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Lab38Api\bin\Release\netcoreapp2.0\Lab38Api.dll
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Lab38Api\bin\Release\netcoreapp2.0\Lab38Api.pdb
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Lab38Api\obj\Release\netcoreapp2.0\Lab38Api.dll
+C:\Users\Duane Rush\source\repos\Lab38-WebAPI-Part3\Lab38Api\Lab38Api\obj\Release\netcoreapp2.0\Lab38Api.pdb

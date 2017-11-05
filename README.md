@@ -17,6 +17,8 @@
   - What resources did you utilize for this assingment?
   The previous days build and demo code and TAs/Amanda
 
+  http://lab38api20171105030739.azurewebsites.net/
+
 ## Rubric
 - 2pts: Additional resources is added with all required actions/behavior
 - 2pts: Unit tests present and passing
